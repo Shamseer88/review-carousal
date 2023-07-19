@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --darkColor: #003366;
+    --lightColor: #cccccc;
+    --yellowColor: #FFCC00;
+  }
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: var(--lightColor);
+}
+
+main {
+    display: flex;
+    height: 550px;
+    margin: auto;
+    width: 750px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--darkColor);
+    padding: 0px 40px;
+    border-radius: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: var(--lightColor);
+}
+h2 {
+    font-weight: 400;
+    font-size: 45px;
+}
+.underline {
+    width: 75px;
+    height: 5px;
+    background-color: var(--yellowColor);
+    margin-bottom: 10px;
+}
+.img-container {
+    background-color: var(--yellowColor);
+    border-radius: 50%;
+    padding: 7px;
+    margin: 10px 0px;
+}
+.person-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.title {
+    font-weight: 600;
+    font-size: 25px;
+}
+.job {
+    text-transform: uppercase;
+    color: var(--yellowColor);
+}
+.info {
+    font-size: 17px;
+    margin: 15px;
+}
+.button-container {
+    display: flex;
+    color: var(--yellowColor);
+    font-size: 25px;
+    margin: 20px;
+}
+.prev-btn {
+    margin-right: 25px;
+    cursor: pointer;
+}
+.prev-btn:hover {
+    color: var(--lightColor);
+}
+.next-btn {
+    margin-left: 25px;
+    cursor: pointer;
+}
+.next-btn:hover {
+    color: var(--lightColor);
+}
+.random-btn {
+    font-family: inherit;
+    font-size: 20px;
+    padding: 7px 42px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+}
+.random-btn:hover {
+    color: var(--lightColor);
+    background-color: var(--darkColor);
+    border: 1px solid var(--lightColor);
+}
